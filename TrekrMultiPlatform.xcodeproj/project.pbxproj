@@ -17,6 +17,8 @@
 		52B4EBD825C0569500523CBC /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 52B4EBD525C0569500523CBC /* tips.json */; };
 		52B4EBD925C0569500523CBC /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 52B4EBD625C0569500523CBC /* locations.json */; };
 		52B4EBDA25C0569500523CBC /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 52B4EBD625C0569500523CBC /* locations.json */; };
+		52B4EBE525C0580F00523CBC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4EBE425C0580F00523CBC /* Location.swift */; };
+		52B4EBE625C0580F00523CBC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4EBE425C0580F00523CBC /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,7 @@
 		52B4EB4425C054A200523CBC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		52B4EBD525C0569500523CBC /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		52B4EBD625C0569500523CBC /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		52B4EBE425C0580F00523CBC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 			children = (
 				52B4EBD625C0569500523CBC /* locations.json */,
 				52B4EBD525C0569500523CBC /* tips.json */,
+				52B4EBE425C0580F00523CBC /* Location.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -216,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B4EB4725C054A200523CBC /* ContentView.swift in Sources */,
+				52B4EBE525C0580F00523CBC /* Location.swift in Sources */,
 				52B4EB4525C054A200523CBC /* TrekrMultiPlatformApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B4EB4825C054A200523CBC /* ContentView.swift in Sources */,
+				52B4EBE625C0580F00523CBC /* Location.swift in Sources */,
 				52B4EB4625C054A200523CBC /* TrekrMultiPlatformApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
